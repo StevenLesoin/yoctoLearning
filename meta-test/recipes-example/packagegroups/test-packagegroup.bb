@@ -8,5 +8,6 @@ PACKAGES = "\
 
 RDEPENDS_test-packagegroup = "\
 	mount-fs-script \
-	helloWorldC \
+	helloworld-c \
+	helloworld-c-autotools \
 	"
