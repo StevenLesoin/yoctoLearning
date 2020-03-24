@@ -5,5 +5,4 @@ inherit core-image
 IMAGE_FEATURES += "read-only-rootfs"
 
 # Add recipes for image
-IMAGE_INSTALL_append = " mount-fs-script \
-			helloworld"
+IMAGE_INSTALL_append = " test-packagegroup"
