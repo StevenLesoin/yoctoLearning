@@ -1,8 +1,8 @@
 dnl Project name and version
-AC_INIT([helloWorldC_autotools], 0.1)
+AC_INIT([helloworld-c-autotools], 0.1)
 
 dnl Initialize Automake environment 
-AM_INIT_AUTOMAKE([-Wall])
+AM_INIT_AUTOMAKE
 
 dnl Determine the C compiler to use
 AC_PROG_CC
