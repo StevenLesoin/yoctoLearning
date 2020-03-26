@@ -10,4 +10,5 @@ RDEPENDS_test-packagegroup = "\
 	mount-fs-script \
 	helloworld-c \
 	helloworld-c-autotools \
+	helloworld-c-cmake \
 	"
