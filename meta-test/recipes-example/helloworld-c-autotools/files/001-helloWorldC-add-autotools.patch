@@ -1,0 +1,10 @@
+--- helloWorldC-origin/helloWorldC.c	2020-03-26 18:37:48.922951758 +0100
++++ helloWorldC-modified/helloWorldC.c	2020-03-26 18:38:52.556245662 +0100
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+ 
+ int main() {
+-	printf("Hello world C !\n");
++	printf("Hello world C autotools!\n");
+ 	return 0;
+ }
